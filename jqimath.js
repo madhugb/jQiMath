@@ -15,7 +15,10 @@
 
   iMathLogic.prototype.equals = function(a,b) {
     if (this.isNumber(a) && this.isNumber(b)) {
+      
+      return a == b;
     }
+    return false;
   };
   
   iMathLogic.prototype.add = function(a,b) {
